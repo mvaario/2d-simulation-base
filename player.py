@@ -81,6 +81,8 @@ class Player(pg.sprite.Sprite):
         # move player
         self.move(wall_group)
 
+        # pg.draw.lines(screen, "grey0", False, waypoints)
+
         # get crosshair
         # self.crosshair()
 

@@ -54,8 +54,6 @@ while run:
 
     all_groups.custom_draw(player)
 
-    # pg.draw.lines(screen, "grey0", False, waypoints)
-
     # update groups
     all_groups.update(wall_group)
 

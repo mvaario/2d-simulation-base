@@ -65,7 +65,6 @@ class Enemy(pg.sprite.Sprite):
         # get target
         self.target()
 
-
         # rotate
         self.rotate()
 

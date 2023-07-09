@@ -1,6 +1,7 @@
 import pygame as pg
 import constant as c
 
+
 class World:
     def __init__(self, file_name):
         self.data = []
@@ -11,6 +12,7 @@ class World:
         self.tile_width = len(self.data[0])
         self.tile_height = len(self.data)
 
+
 class Wall(pg.sprite.Sprite):
     def __init__(self, pos_x, pos_y, group):
         super().__init__(group)
@@ -19,5 +21,3 @@ class Wall(pg.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.rect.x = pos_x * c.tilesize
         self.rect.y = pos_y * c.tilesize
-
-

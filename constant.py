@@ -16,6 +16,7 @@ lightGray = (100, 100, 100)
 orange = (255, 110, 0)
 
 # player properties
+player_fov = 120
 player_movement_friction = 0.5
 
 player_angle_acc = 1
